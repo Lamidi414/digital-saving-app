@@ -1,0 +1,57 @@
+.landing-page {
+  background-image: linear-gradient(rgba(24, 23, 23, 0.6), rgba(15, 39, 75, 0.6)), url("./pages/Landing-Image.png");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.landing-content {
+  max-width: 700px;
+}
+
+.landing-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: -21rem;
+  margin-bottom: 1rem;
+}
+
+.landing-text {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  margin: 0 0.5rem;
+  transition: background 0.3s ease;
+}
+
+.btn-primary {
+  background-color: #2563eb;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #1e40af;
+}
+
+.btn-secondary {
+  background-color: white;
+  color: #1f2937;
+}
+
+.btn-secondary:hover {
+  background-color: #f3f4f6;
+}
